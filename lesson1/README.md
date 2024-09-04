@@ -12,8 +12,20 @@
 
 ```shell
 % git init -b main
-Initialized empty Git repository in /Users/arteme/PycharmProjects/MISISFastAPi/.git/
 % git status
 % echo .idea >> .gitignore
 % git status
+% git add .
+% git status
+% git commit -m "Initial commit"
+% git remote add origin git@github.com:ArtemE91/MISIS.git
+% git push -u origin main
+```
+
+### Создание ветки и merge
+```shell
+% git branch feature 
+% git checkout feature 
+% git branch 
+% 
 ```
